@@ -27,7 +27,7 @@ void _printParenthesis(int pos, int n, int open, int close)
 
 
     if (close == n) {
-        printf("%s \n", str);
+        printf("%s\n", str);
         N++;
         return;
     }
